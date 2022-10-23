@@ -1,0 +1,2 @@
+insert into user_account (user_id, user_password, user_name, birth, email, report, reported, created_at, created_by, updated_at, updated_by) values
+    ('ceh', 'dmsgur123!!', '은혁', '19910629', 'ceh@mail.com', null, null, now(), 'ceh', now(), 'ceh');

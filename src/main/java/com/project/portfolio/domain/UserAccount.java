@@ -2,14 +2,12 @@ package com.project.portfolio.domain;
 
 import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class UserAccount extends AuditingFields {
     @Id
-    @Column(length = 50)
+    @Column(nullable = false)
     private String userId;
 
     @Setter
