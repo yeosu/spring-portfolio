@@ -13,8 +13,8 @@ logging:
 
 spring:
   datasource:
-    url: jdbc:mariadb://138.2.122.11:3306/project
-    username: project
+    url: jdbc:mariadb://150.230.249.173:3306/project
+    username: spring
     password: qlalf123
     driver-class-name: org.mariadb.jdbc.Driver
   jpa:
